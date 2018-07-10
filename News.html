@@ -74,20 +74,21 @@ p {
   <center>
     <h1> News </h1>
   </center>
-    <div style="margin-left: 300px;">
-  <h3> Kendall's Story </h3>
-<p> "One survivor of human trafficking, who calls herself Kendall, told
+    <button onclick="myFunction()">Kendall's Story</button>
+    <div style="margin-left: 300px; display:block;" id = "Kendall">
+   One survivor of human trafficking, who calls herself Kendall, told
    authorities that her parents only had her in order to sell her to an
    international sex trafficker. Her life began with sexual abuse, says the survivor,
    and she claims she was molested even before she could even walk.
    Kendall explained that the man, who she referred to only as “the man who owned me,”
    said that she wasn’t allowed to use the word “trafficking.” Kendall was
    told that, “I was made for that [sexual slavery], and trafficking is when
-   girls who aren’t made for that get kidnapped or sold into it.” </p>
+      girls who aren’t made for that get kidnapped or sold into it.</div>
    <br>
    <br>
-   <h3> Mari's Story </h3>
-   <p> Over the course of 16 years, Mari was in a relationship with a
+   <button onclick="myFunction2()">Mari's Story</button>
+    <div style="margin-left: 300px;" id = "Mari">
+     Over the course of 16 years, Mari was in a relationship with a
      man who fathered her four children. He was abusive in every way:
      verbally, physically, and sexually. At some point, the man started
      forcing Mari to have sex with other men in order to make some extra cash.
@@ -96,11 +97,12 @@ p {
      still be in the monster’s thrall. When they were pulled over, a particularly
       observant officer noticed that the man had both Mari and Janice’s IDs in his
       wallet. This prompted the officer to ask to speak to each of them privately.
-      At that point, Mari was able to get some help and free herself of her captor.</p>
+      At that point, Mari was able to get some help and free herself of her captor.</div>
   <br>
   <br>
-  <h3> Phalla's Story </h3>
-  <p>Until the age of 20, Phalla lived a relatively normal life in Cambodia. After
+  <button onclick="myFunction3()">Phalla's Story</button>
+   <div style="margin-left: 300px;" id = "Phalla">   
+    Until the age of 20, Phalla lived a relatively normal life in Cambodia. After
     her father died, with no one to support her family, she was forced to move in with
     her grandmother. About two months after she’d arrived, her grandmother drove her
     into a nearby city, Kampong Som, and sold her to a brothel. Phalla didn't realize
@@ -111,12 +113,12 @@ p {
     soon put to work in a karaoke bar, and her employers sold her to foreign tourists
     for days at a time. When she tried to leave, she was beaten. It took several more
     months before she was able to gain her captor’s confidence, escape, and turn herself
-    over to authorities.
-</p>
+    over to authorities.</div>                                                       
 <br>
 <br>
-<h3> Sabine's Story </h3>
-<p>The only surviving member of her family in the wake of the Rwandan genocide, Sabine
+<button onclick="myFunction4()">Sabine's Story</button>
+  <div style="margin-left: 300px;" id = "Sabine">   
+  The only surviving member of her family in the wake of the Rwandan genocide, Sabine
   was more than happy to accept an offer working for a wealthy American family. Upon
   her arrival, the girl was imprisoned and forced to work around the clock. She slept
   on the kitchen floor. It took six months before Sabine was allowed one hour off each
@@ -125,11 +127,12 @@ p {
   She was afraid to leave her new apartment after 4 pm. She was too afraid to go anywhere
   in the city alone, and she was even terrified to use a gift card. A few months later,
   Sabine found her courage. She’s now able to travel on her own, and she's learning English
-  as she slowly works to rebuild her life.</p>
+  as she slowly works to rebuild her life.</div>
 <br>
 <br>
-<h3> Loreta's Story </h3>
-<p>Loreta was born to two alcoholic parents, and they were incapable of taking care of her
+<button onclick="myFunction5()">Loretta's Story</button>
+    <div style="margin-left: 300px;" id = "Loreta">
+Loreta was born to two alcoholic parents, and they were incapable of taking care of her
   and her 13 brothers and sisters. At a young age, she and her siblings were shipped off to
   Lithuanian state homes across the country. She lost track of her family.Soon after she arrived
   at the state home, Loreta was visited by a man who called himself her godfather. He began visiting
@@ -141,10 +144,21 @@ p {
   in Ravenna, Italy.In Italy, she was forced to have sex with clients in the public restrooms within
   a 15 minute window. It wasn’t until she happened to have a client that spoke Lithuanian that Loreta
   dared beg for help. Fortunately, the john had a change of heart and took Loreta and some of her friends
-  to the Italian police. They helped get her some documentation and return back home.</p>
+  to the Italian police. They helped get her some documentation and return back home.</div>
 <br>
 <br>
 <p>Stories taken from <a href="https://www.ranker.com/list/human-trafficking-survivor-stories/justin-andress"> Human Trafficking Survivors Tell Their Heartbreaking Stories </a> by Justin Andress </p>
 </div>
 </body>
+  
+  <script>
+   function myFunction() {
+    var x = document.getElementById("Kendall");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+  </script>
 </html>
