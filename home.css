@@ -39,5 +39,8 @@ ul {
 .paragraph1{
  margin-left: 300px;
  font-family: "Times New Roman", Times, serif;
+ color: white
 }
-
+body{
+ background-color: black;
+}
