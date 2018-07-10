@@ -45,15 +45,16 @@ ul {
  font-family: "Times New Roman", Times, serif;
  color: white
 }
-body{
+body {
  background-color: black;
 }
-h1{
+h1 {
  color: white;
 }
-h2{
+h2 {
  color: white;
 }
-p{
+.information {
  color: white;
+ margin-left: 100px;
 }
