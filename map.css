@@ -1,4 +1,4 @@
- ul {
+ ul.map {
      list-style-type: none;
      margin: 0;
      padding: 0;
@@ -23,7 +23,7 @@
      background-color: #3366ff;
      color: white;
  }
- ul {
+ ul.map {
      list-style-type: none;
      margin: 0;
      padding: 0;
@@ -33,7 +33,7 @@
      position: fixed; /* Make it stick, even on scroll */
      overflow: auto; /* Enable scrolling if the sidenav has too much content */
  }
-ul {
+ul.map {
     background-color: #000000;
 }
 .paragraph1{
