@@ -12,6 +12,7 @@
     color: ##ffffff;
      padding: 8px 16px;
      text-decoration: none;
+     font-size: 50px;
  }
  
  li a:hover {
@@ -37,7 +38,6 @@ ul {
 }
 .paragraph1{
  margin-left: 300px;
+ font-family: "Times New Roman", Times, serif;
 }
-.paragraph2{
- maragin-left: 300px;
-}
+
