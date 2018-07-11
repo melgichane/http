@@ -37,10 +37,8 @@
      position: fixed; /* Make it stick, even on scroll */
      overflow: auto; /* Enable scrolling if the sidenav has too much content */
  }
-ul {
-    background-color: #000000;
-}
-.paragraph1{
+
+.paragraph1 {
  margin-left: 300px;
  font-family: "Times New Roman", Times, serif;
  color: white
@@ -56,5 +54,5 @@ h2 {
 }
 .information {
  color: white;
- margin-left: 100px;
+ margin-left: 200px;
 }
