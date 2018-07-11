@@ -1,5 +1,13 @@
 <html>
   <head>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+     $(function() {
+	$("#visible").click(function() {
+	    $('#invisible').toggleClass("show");
+	  });  
+	});
+    </script>
     <style>
  ul {
      list-style-type: none;
@@ -54,12 +62,12 @@ body{
 h1{
  color: white;
 }
-.button {
- color: none;
-  border: none;
-  font-size: 20px;
-  float: right;
-}
+.hide{
+  display:none;
+  }
+  .show{
+    display:block;
+    }
       
  p{
 
@@ -78,16 +86,15 @@ h1{
   <center>
     <h1> News </h1>
   </center>
-    <button onclick="myFunction()">Kendall's Story</button>
-    <div style="margin-left: 300px; display:none;" id = "Kendall">
-   <p>One survivor of human trafficking, who calls herself Kendall, told
+    <h3 id= "visible">Kendall's Story</h3>
+   <p id="invisible" class= "hide">One survivor of human trafficking, who calls herself Kendall, told
    authorities that her parents only had her in order to sell her to an
    international sex trafficker. Her life began with sexual abuse, says the survivor,
    and she claims she was molested even before she could even walk.
    Kendall explained that the man, who she referred to only as “the man who owned me,”
    said that she wasn’t allowed to use the word “trafficking.” Kendall was
    told that, “I was made for that [sexual slavery], and trafficking is when
-      girls who aren’t made for that get kidnapped or sold into it.</p></div>
+      girls who aren’t made for that get kidnapped or sold into it.</p>
    <br>
    <br>
    <button onclick="myFunction2()">Mari's Story</button>
@@ -154,15 +161,4 @@ h1{
 <p>Stories taken from <a href="https://www.ranker.com/list/human-trafficking-survivor-stories/justin-andress"> Human Trafficking Survivors Tell Their Heartbreaking Stories </a> by Justin Andress </p>
 </div>
 </body>
-  
-  <script>
-   function myFunction() {
-    var x = document.getElementById("Kendall");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-  </script>
 </html>
